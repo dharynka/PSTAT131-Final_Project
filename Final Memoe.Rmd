@@ -1,0 +1,32 @@
+---
+title: "Final Project Memo"
+author: "Dharynka Tapia"
+date: "2022-10-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**DataSet(s) Overview**
+
+For my proposed final project I want to create a model that predicts the attendance level of NFL home games. I will be obtaining my data from https://www.pro-football-reference.com/years/ as well as http://www.espn.com/nfl/attendance/_/year/. 
+
+My data from the pro-football-reference site will provide me with information regarding stats for the NFL season for 5-15 years regarding the outcome of the game along with vital statistics such as total yards, fumbles, touchdowns etc. The data from the ESPN site will provide data on the average amount of people attending home games per game for previous seasons. I have yet to load the data completely but there is more than 1000+ observations and 100+ predictors. There's seems to be enough data but because there is a lot of data I will be concentrating on home games only. 
+
+**An Overview of my Research Question**
+
+For my final project I am interested on answering approximately the attendance of a home game. My outcome variable would be Attendance and would predict if the amount of attendees per home game will go above 70,000. My model will be best answered through a classification model. I think the predictors that will be most useful will be the amount of wins/losses, playoff history, along with overall team performance such as the amount of touchdowns, fumbles etc. I beleive that my model will be more inferential as my main goal will be to test if a teams performance will equate to increase attendance of home games. 
+
+**Proposed Project Outline**
+
+Week2 - have data set loaded 
+week3 - begin data analysis
+week4 - data splitting 
+week5 - create models 
+
+
+
+
+
